@@ -2,7 +2,7 @@
 
 - [Why was this project created?](#why-was-this-project-created)
 - [Technologies included in this project](#technologies-included-in-this-project)
-    - [Hibernate & JPA](#hibernate-jpa)
+    - [Hibernate and JPA](#hibernate-and-jpa)
     - [Spring JDBC Template](#spring-jdbc-template)
     - [jOOQ](#jOOQ)
     - [R2DBC](#r2dbc)
