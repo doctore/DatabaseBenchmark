@@ -19,7 +19,7 @@ about which one will provide a better performance.
 
 Using Spring microsystem as base of the used technologies, the following ones have been included in the current project:
 
-### Hibernate & JPA
+### Hibernate and JPA
 
 Inside the package `jpa` has been included the required classes to work with the option: **Hibernate** and **JPA**:  
 
