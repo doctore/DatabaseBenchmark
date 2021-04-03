@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/benchmark
+    username: benchmark
+    password: benchmark
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL10Dialect
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        implicit_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+        physical_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+        format_sql: false
+        show_sql: false
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/benchmark
+    username: benchmark
+    password: benchmark
+    #pool:
+    #  initial-size: 100
+    #  max-size: 500
+    #  max-idle-time: 30m
+    #  validation-query: SELECT
+  jooq:
+    sql-dialect: POSTGRES
